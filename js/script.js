@@ -118,16 +118,16 @@ $(document).ready(function () {
         $(".player2NameOutput").text(player2.name);
         resetFields(); //Clear the form input fields
     });
-//     //Display dice roll number and turn total when the roll button is clicked
-//     $('.roll1').click(function (event) { //roll button for player1
-//         event.preventDefault();
-//         //Activate Gaming Area
-//         player1.active = true;
-//         player2.active = false;
-//         player1.roll(); //call the function to generate random numbers
-//         $('.diceRoll1').text(player1.diceRoll); //display the rolled dice number
-//         $('.turnScore1').text(player1.turnTotal); //display the turn score (temporary score)
-//     });
+    //Display dice roll number and turn total when the roll button is clicked
+    $('.roll1').click(function (event) { //roll button for player1
+        event.preventDefault();
+        //Activate Gaming Area
+        player1.active = true;
+        player2.active = false;
+        player1.roll(); //call the function to generate random numbers
+        $('.diceRoll1').text(player1.diceRoll); //display the rolled dice number
+        $('.turnScore1').text(player1.turnTotal); //display the turn score (temporary score)
+    });
 //     $('.roll2').click(function (event) { //roll button for player2
 //         event.preventDefault();
 //         //Activate Gaming Area
