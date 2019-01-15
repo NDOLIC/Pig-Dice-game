@@ -1,5 +1,7 @@
 /*Styles for the whole body*/
-/*Styles for the whole body*/
+/*Styles for the whole body*/body{
+    background-color: grey;
+}
 .container {
     font-size: 20px;
     box-sizing: border-box;
@@ -116,7 +118,7 @@ button#playButton {
     padding-bottom: 20px;
     padding-top: 20px;
     text-align: center;
-    color: white;
+    color:black;
 }
 #gamingArea img{
     border: 5px solid #001f75;
