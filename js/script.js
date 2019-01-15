@@ -89,23 +89,23 @@ function resetFields() {
     })
 
 };
-// //Front End Logic
-// $(document).ready(function () {
-//     // $("#rulesHeader").click(function () { //Makes the 'Rules' title clickeable and the rules themselves hideable.
+//Front End Logic
+$(document).ready(function () {
+    $("#rulesHeader").click(function () { //Makes the 'Rules' title clickeable and the rules themselves hideable.
 
-//     // });
-//     //Actions when player enters name
-//     $("#playerNames").submit(function (event) {
-//         event.preventDefault();
-//         $("#rulesDefinitions").hide();
-//         $("form").hide();
-//         $(".newGame").show();
-//         $(".newGame").click(function () { //Makes the 'New Game' title clickeable and the form reappear.
-//             $("form").show();
-//             $('#gamingArea').hide();
-//             $(".newGame").hide();
-//             resetFields();
-//         });
+    });
+    //Actions when player enters name
+    // $("#playerNames").submit(function (event) {
+    //     event.preventDefault();
+    //     $("#rulesDefinitions").hide();
+    //     $("form").hide();
+    //     $(".newGame").show();
+    //     $(".newGame").click(function () { //Makes the 'New Game' title clickeable and the form reappear.
+    //         $("form").show();
+    //         $('#gamingArea').hide();
+    //         $(".newGame").hide();
+    //         resetFields();
+    //     });
 //         $('#gamingArea').show();
 //         //Store the players names in variables.
 //         var gamer1 = $("#player1Name").val();
