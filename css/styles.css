@@ -85,7 +85,7 @@ p,label,li{
 .newGame:hover {
     color: white;
 }
-/*#playingForm {
+#playingForm {
     background-color: rgba(238, 238, 238, 0.4);
     margin: auto;
     box-shadow: 0px 0px 10px #ccc;
